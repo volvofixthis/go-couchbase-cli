@@ -3,7 +3,7 @@ CLI for Couchbase KV engine writed in Golang and using Couchbase SDK. Can be use
 Командная утилита для работы с Couchbase KV engine, написанная с использованием языка Golang и Couchbase SDK. Может быть использована в качестве примера или утилиты для проведения быстрых тестов. Например можно проверить доступ к Couchbase KV engine из пода k8s кластера. 
 
 ### Build  
-building binary, ready to use application can be located in bin folder:  
+Application can be built using make and Golang compiler. Ready to use application can be located in bin folder:  
 make build
 
 ### Usage  
