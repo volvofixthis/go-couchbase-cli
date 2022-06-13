@@ -21,7 +21,7 @@ Writing raw json value:
 Запись значения с роу джсона:  
 go-couchbase-cli kv --dsn "couchbase://couchbase.local" -u test_v1_cache -p "password123" -b "test_v1_cache" upsert --transcoder raw_json -k kus3 --ttl 15m -v '{"first_name": "M", "last_name": "L"}'  
 
-Receving json value:  
+Receiving json value:  
 Получения значения с джсоном:  
 go-couchbase-cli kv --dsn "couchbase://couchbase.local" -u test_v1_cache -p "password123" -b "test_v1_cache" get --transcoder json kus1 kus2 kus3
 
