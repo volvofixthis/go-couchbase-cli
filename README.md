@@ -1,8 +1,8 @@
 ### Description  
-CLI client for Couchbase KV engine written in Golang and using Couchbase SDK. Can be used as example or standalone util for making quick tests. For example you can check access to Couchbase KV engine from k8s pod.  
+CLI client for Couchbase KV engine written in Golang and using Couchbase SDK. Can be used as an example or standalone util for making quick tests. For example you can check access to Couchbase KV engine from k8s pod.  
 
 ### Build  
-Application can be built using make and Golang compiler. Compbinary can be located in bin folder:  
+Application can be built using make and Golang compiler. Compiled binary can be found in bin folder:  
 make build
 
 ### Usage  
