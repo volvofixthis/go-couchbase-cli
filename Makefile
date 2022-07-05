@@ -4,7 +4,7 @@ OS=linux
 ARCH=amd64
 
 build:
-	@mkdir -p bin && GOOS=${OS} GOARCH=${ARCH} go build -o bin/go-couchbase-cli_${OS}_${ARCH} ./cli
+	@mkdir -p bin && GOOS=${OS} GOARCH=${ARCH} go build -o bin/couchbase-cli_${OS}_${ARCH} ./cli
 
 clean:
 	@rm -rf vendor && rm -rf bin
